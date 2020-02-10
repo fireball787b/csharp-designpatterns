@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DuckProblem\Behaviour\Fly\FlyNoWay.cs" />
+    <Compile Include="DuckProblem\Behaviour\Fly\FlyRocketPowered.cs" />
     <Compile Include="DuckProblem\Behaviour\Fly\FlyWithWings.cs" />
     <Compile Include="DuckProblem\Behaviour\Quack\MuteQuack.cs" />
     <Compile Include="DuckProblem\Behaviour\Quack\Quack.cs" />
@@ -51,15 +52,35 @@
     <Compile Include="DuckProblem\DuckRun.cs" />
     <Compile Include="DuckProblem\Interface\FlyBehaviour.cs" />
     <Compile Include="DuckProblem\Interface\QuackBehaviour.cs" />
+    <Compile Include="DuckProblem\Models\DisabledDuck.cs" />
     <Compile Include="DuckProblem\Models\Duck.cs" />
     <Compile Include="DuckProblem\Models\MallardDuck.cs" />
     <Compile Include="DuckProblem\Models\RubberDuck.cs" />
+    <Compile Include="ObserverPattern\Book\Interface\DisplayElement.cs" />
+    <Compile Include="ObserverPattern\Book\Interface\Observer.cs" />
+    <Compile Include="ObserverPattern\Book\Interface\Subject.cs" />
+    <Compile Include="ObserverPattern\Book\Models\ForecastDisplay.cs" />
+    <Compile Include="ObserverPattern\Book\Models\StatisticsDisplay.cs" />
+    <Compile Include="ObserverPattern\Book\Models\CurrentConditionsDisplay.cs" />
+    <Compile Include="ObserverPattern\Book\Models\WeatherData.cs" />
+    <Compile Include="ObserverPattern\Core\Models\CurrentConditionsDisplay.cs" />
+    <Compile Include="ObserverPattern\Core\Models\ForecastDisplay.cs" />
+    <Compile Include="ObserverPattern\Core\Models\StatisticsDisplay.cs" />
+    <Compile Include="ObserverPattern\Core\Models\Unsubscriber.cs" />
+    <Compile Include="ObserverPattern\Core\Models\WeatherTracker.cs" />
+    <Compile Include="ObserverPattern\Core\Models\WeatherData.cs" />
+    <Compile Include="ObserverPattern\WeatherStation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="ObserverPattern\README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ObserverPattern\Core\Interface\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

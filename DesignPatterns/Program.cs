@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.DuckProblem;
+using DesignPatterns.ObserverPattern;
 
 namespace DesignPatterns
 {
@@ -8,6 +9,9 @@ namespace DesignPatterns
         {
             //DuckRun duckrun = new DuckRun();
             //duckrun.Test();
+
+            WeatherStation weatherStation = new WeatherStation();
+            weatherStation.Test();
         }
     }
 }
