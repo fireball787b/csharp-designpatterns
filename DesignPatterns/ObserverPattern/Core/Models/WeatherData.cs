@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.ObserverPattern.Core.Models
 {
+    //class for storing weather data
     class WeatherData
     {
         private float temperature;
