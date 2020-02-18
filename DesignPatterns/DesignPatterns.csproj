@@ -79,8 +79,6 @@
   <ItemGroup>
     <Content Include="ObserverPattern\README.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ObserverPattern\Core\Interface\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

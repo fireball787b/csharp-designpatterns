@@ -7,11 +7,13 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
+            //DuckProblem
             //DuckRun duckrun = new DuckRun();
             //duckrun.Test();
 
-            WeatherStation weatherStation = new WeatherStation();
-            weatherStation.Test();
+            //ObserverPattern
+            //WeatherStation weatherStation = new WeatherStation();
+            //weatherStation.Test();
         }
     }
 }
