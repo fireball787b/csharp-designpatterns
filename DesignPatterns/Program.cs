@@ -1,4 +1,5 @@
-﻿using DesignPatterns.DuckProblem;
+﻿using DesignPatterns.DecoratorPattern;
+using DesignPatterns.DuckProblem;
 using DesignPatterns.ObserverPattern;
 
 namespace DesignPatterns
@@ -14,6 +15,10 @@ namespace DesignPatterns
             //ObserverPattern
             //WeatherStation weatherStation = new WeatherStation();
             //weatherStation.Test();
+
+            //DecoratorPAttern
+            //StarbuzzCoffee starbuzzCoffee = new StarbuzzCoffee();
+            //starbuzzCoffee.Test();
         }
     }
 }

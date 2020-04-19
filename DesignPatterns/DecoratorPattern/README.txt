@@ -1,0 +1,1 @@
+﻿The folder 'Book' containts the implenmentation of the DecoratorPattern based on the book example.s
