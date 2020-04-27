@@ -80,6 +80,13 @@
     <Compile Include="DecoratorPattern\StarbuzzCoffee.cs" />
     <Compile Include="DecoratorPattern\Book\Models\Decorators\Whip.cs" />
     <Compile Include="DecoratorPattern\Book\Models\Decorators\Soy.cs" />
+    <Compile Include="FactoryPattern\Book\Models\Abstract\Pizza.cs" />
+    <Compile Include="FactoryPattern\Book\Models\Pizzas\NYStyleCheesePizza.cs" />
+    <Compile Include="FactoryPattern\Book\Models\Pizzas\ChicagoStyleCheesePizza.cs" />
+    <Compile Include="FactoryPattern\Book\Models\Abstract\PizzaStore.cs" />
+    <Compile Include="FactoryPattern\Book\Models\Stores\NYPizzaStore.cs" />
+    <Compile Include="FactoryPattern\Book\Models\Stores\ChicagoPizzaStore.cs" />
+    <Compile Include="FactoryPattern\Book\OrderPizzaManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -96,6 +103,12 @@
     <Folder Include="DecoratorPattern\Book\Models\" />
     <Folder Include="DecoratorPattern\Book\Models\Abstract\" />
     <Folder Include="DecoratorPattern\Book\Models\Decorators\" />
+    <Folder Include="FactoryPattern\" />
+    <Folder Include="FactoryPattern\Book\" />
+    <Folder Include="FactoryPattern\Book\Models\" />
+    <Folder Include="FactoryPattern\Book\Models\Abstract\" />
+    <Folder Include="FactoryPattern\Book\Models\Pizzas\" />
+    <Folder Include="FactoryPattern\Book\Models\Stores\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

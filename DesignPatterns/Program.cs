@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.DecoratorPattern;
 using DesignPatterns.DuckProblem;
+using DesignPatterns.FactoryPattern.Book;
 using DesignPatterns.ObserverPattern;
 
 namespace DesignPatterns
@@ -19,6 +20,10 @@ namespace DesignPatterns
             //DecoratorPAttern
             //StarbuzzCoffee starbuzzCoffee = new StarbuzzCoffee();
             //starbuzzCoffee.Test();
+
+            //FactoryPattern
+            OrderPizzaManager orderPizzaManager = new OrderPizzaManager();
+            orderPizzaManager.Test();
         }
     }
 }
